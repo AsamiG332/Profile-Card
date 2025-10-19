@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <article data-testid="test-profile-card" class="profile-card">
+      <figure>
+        <img
+          src="/Intership/Images/avatar.jpeg"
+          alt="user-avatar"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+      <header>
+        <h2 data-testid="test-user-name">Gloria Malik</h2>
+        <p data-testid="test-user-bio">
+          Frontend developer passionate about creating impactful digital
+          experiences.
+        </p>
+      </header>
+      <p data-testid="test-user-time" id="time"></p>
+      <nav data-testid="test-user-social-links" class="social-links">
+        <ul>
+          <li>
+            <a
+              href="https://twitter.com/"
+              data-testid="test-user-social-twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://linkedIn.com/"
+              data-testid="test-user-social-twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://facebook.com/"
+              data-testid="test-user-social-twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/"
+              data-testid="test-user-social-twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/"
+              data-testid="test-user-social-twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Github</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Reading</li>
+          <li>Traveling</li>
+          <li>Coding</li>
+          <li>Exercise</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Dislikes</h3>
+        <ul>
+          <li>Procastination</li>
+          <li>Lies</li>
+          <li>Laziness</li>
+          <li>Noise</li>
+        </ul>
+      </section>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
