@@ -4,4 +4,4 @@ const milliseconds = Date.now();
 
 const readableDate = new Date(milliseconds).toLocaleString();
 
-timeElement.textContent = `(${readableDate})`;
+timeElement.textContent = `(${readableDate})`
